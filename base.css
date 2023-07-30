@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Delius&family=Great+Vibes&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --goldClr: #f7b035;
+    --greenClr-light: #4f8a10;
+    --greenClr-dark: #256b3e;
+    --whiteClr: #fff;
+    --blackClr-background: #1d1d1d;
+}
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-inline: 20px;
+}
+
+.heading-1{
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 1.8px;
+    font-size: 90px;
+}
+.heading-2{
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 1.12px;
+    font-size: 56px;
+}
+.heading-3{
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 0.48px;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+
+
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+
+.text-center {
+    text-align: center;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
